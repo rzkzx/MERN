@@ -5,7 +5,7 @@ import Star from 'elements/Star';
 export default function Testimony() {
   return (
     <div>
-      <Star value={3.5} width={35} height={35} spacing={4} />
+      <Star value={4.5} width={35} height={35} spacing={4} />
     </div>
   );
 }
