@@ -9,7 +9,7 @@
     z-index: 3;
 
     &.sm {
-        grid-template-rows: minmax(245px, auto);
+        grid-auto-rows: minmax(245px, auto);
         row-gap: 10px;
         column-gap: 10px;
     }
@@ -35,20 +35,24 @@
             grid-column-end: span 5;
         }
 
-        &.coloumn-6 {
+        &.column-6 {
             grid-column-end: span 6;
         }
 
-        &.coloumn-7 {
+        &.column-7 {
             grid-column-end: span 7;
         }
 
-        &.coloumn-8 {
+        &.column-8 {
             grid-column-end: span 8;
         }
 
         &.column-9 {
             grid-column-end: span 9;
+        }
+
+        &.column-10 {
+            grid-column-end: span 10;
         }
 
         &.column-11 {
