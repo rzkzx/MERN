@@ -98,11 +98,11 @@ class BookingForm extends Component {
           style={{ marginBottom: 40 }}
         >
           You will pay{' '}
-          <span className="text-gray-900">
+          <span className="text-gray-900 font-weight-normal">
             ${itemDetails.price * data.duration} USD
           </span>{' '}
           per{' '}
-          <span className="text-gray-900">
+          <span className="text-gray-900 font-weight-normal">
             {data.duration} {itemDetails.unit}
             {suffixPlural && data.duration > 1 ? 's' : ''}
           </span>

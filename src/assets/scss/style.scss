@@ -110,6 +110,9 @@ section {
 }
 
 .card {
+    &.bordered {
+        border: 1px solid $gray-200;
+    }
 
     border-radius: 15px;
 
