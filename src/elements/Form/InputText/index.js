@@ -31,8 +31,7 @@ export default function Text(props) {
 
     if (type === 'email') {
       if (!pattern.test(event.target.value)) setHasError(errorResponse);
-    } else {
-      setHasError(null);
+      else setHasError(null);
     }
 
     if (type === 'tel') {
