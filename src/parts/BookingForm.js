@@ -65,7 +65,6 @@ class BookingForm extends Component {
   render() {
     const { data } = this.state;
     const { itemDetails, startBooking } = this.props;
-    const suffixPlural = 's';
     return (
       <div className="card bordered" style={{ padding: `60px 80px` }}>
         <h4 className="mb-3">Start Booking</h4>
@@ -104,7 +103,7 @@ class BookingForm extends Component {
           per{' '}
           <span className="text-gray-900 font-weight-normal">
             {data.duration} {itemDetails.unit}
-            {suffixPlural && data.duration > 1 ? 's' : ''}
+            {data.duration > 1 ? 's' : ''}
           </span>
         </h6>
 
